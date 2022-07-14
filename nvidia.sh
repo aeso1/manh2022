@@ -14,3 +14,4 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 echo "Nvidia Driver Installed"
+sudo apt install nvidia-driver-510
